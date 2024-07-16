@@ -1,0 +1,6 @@
+CREATE TABLE dishes (
+    dishId SERIAL PRIMARY KEY,
+    dishName VARCHAR(255) NOT NULL,
+    imageUrl TEXT NOT NULL,
+    isPublished BOOLEAN NOT NULL
+);
